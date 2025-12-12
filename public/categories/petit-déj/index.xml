@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Petit-Déj on Hargo | Hugo Ecommerce Site</title>
+    <link>//localhost:1313/categories/petit-d%C3%A9j/</link>
+    <description>Recent content in Petit-Déj on Hargo | Hugo Ecommerce Site</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Jan 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/petit-d%C3%A9j/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nutella 750g</title>
+      <link>//localhost:1313/products/product-3/</link>
+      <pubDate>Wed, 01 Jan 2025 12:00:00 +0000</pubDate>
+      <guid>//localhost:1313/products/product-3/</guid>
+      <description>&lt;p&gt;Description détaillée de Nutella 750g.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

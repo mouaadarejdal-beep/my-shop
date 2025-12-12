@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Epicerie Fine on Hargo | Hugo Ecommerce Site</title>
+    <link>//localhost:1313/categories/epicerie-fine/</link>
+    <description>Recent content in Epicerie Fine on Hargo | Hugo Ecommerce Site</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Oct 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/epicerie-fine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Epicerie Fine Premium 1</title>
+      <link>//localhost:1313/english/products/product-1/</link>
+      <pubDate>Fri, 24 Oct 2025 12:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/products/product-1/</guid>
+      <description>&lt;p&gt;Description courte du produit 1 pour le client.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Epicerie Fine Premium 10</title>
+      <link>//localhost:1313/english/products/product-10/</link>
+      <pubDate>Fri, 24 Oct 2025 12:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/products/product-10/</guid>
+      <description>&lt;p&gt;Description courte du produit 10 pour le client.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Epicerie Fine Premium 12</title>
+      <link>//localhost:1313/english/products/product-12/</link>
+      <pubDate>Fri, 24 Oct 2025 12:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/products/product-12/</guid>
+      <description>&lt;p&gt;Description courte du produit 12 pour le client.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Epicerie Fine Premium 2</title>
+      <link>//localhost:1313/english/products/product-2/</link>
+      <pubDate>Fri, 24 Oct 2025 12:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/products/product-2/</guid>
+      <description>&lt;p&gt;Description courte du produit 2 pour le client.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Epicerie Fine Premium 9</title>
+      <link>//localhost:1313/english/products/product-9/</link>
+      <pubDate>Fri, 24 Oct 2025 12:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/products/product-9/</guid>
+      <description>&lt;p&gt;Description courte du produit 9 pour le client.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

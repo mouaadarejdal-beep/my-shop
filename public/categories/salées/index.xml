@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Salées on Hargo | Hugo Ecommerce Site</title>
+    <link>/categories/sal%C3%A9es/</link>
+    <description>Recent content in Salées on Hargo | Hugo Ecommerce Site</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 -0500</lastBuildDate>
+    <atom:link href="/categories/sal%C3%A9es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Summer Box Dcouverte</title>
+      <link>/products/product-12/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 -0500</pubDate>
+      <guid>/products/product-12/</guid>
+      <description>&lt;p&gt;Ceci est le produit &lt;strong&gt;Summer Box Dcouverte&lt;/strong&gt;.&#xA;Cliquez sur le bouton pour l&amp;rsquo;ajouter au panier.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Twix Caramel Centres Cookies 144G</title>
+      <link>/products/product-17/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 -0500</pubDate>
+      <guid>/products/product-17/</guid>
+      <description>&lt;p&gt;Ceci est le produit &lt;strong&gt;Twix Caramel Centres Cookies 144G&lt;/strong&gt;.&#xA;Cliquez sur le bouton pour l&amp;rsquo;ajouter au panier.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

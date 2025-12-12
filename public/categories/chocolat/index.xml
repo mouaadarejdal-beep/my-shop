@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chocolat on Hargo | Hugo Ecommerce Site</title>
+    <link>//localhost:1313/categories/chocolat/</link>
+    <description>Recent content in Chocolat on Hargo | Hugo Ecommerce Site</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Jan 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/chocolat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ferrero Rocher T16</title>
+      <link>//localhost:1313/products/product-14/</link>
+      <pubDate>Wed, 01 Jan 2025 12:00:00 +0000</pubDate>
+      <guid>//localhost:1313/products/product-14/</guid>
+      <description>&lt;p&gt;Description détaillée de Ferrero Rocher T16.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lindt Excellence 70%</title>
+      <link>//localhost:1313/products/product-5/</link>
+      <pubDate>Wed, 01 Jan 2025 12:00:00 +0000</pubDate>
+      <guid>//localhost:1313/products/product-5/</guid>
+      <description>&lt;p&gt;Description détaillée de Lindt Excellence 70%.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Milka Oreo Tablette 100g</title>
+      <link>//localhost:1313/products/product-1/</link>
+      <pubDate>Wed, 01 Jan 2025 12:00:00 +0000</pubDate>
+      <guid>//localhost:1313/products/product-1/</guid>
+      <description>&lt;p&gt;Description détaillée de Milka Oreo Tablette 100g.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

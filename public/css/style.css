@@ -1,0 +1,68 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;600;700&family=Inter:wght@400;600&display=swap');
+    
+    :root { 
+        --primary: #d04f27; 
+        --dark: #222222;
+        --light: #f9f9f9;
+        --border: #e5e5e5;
+    }
+    
+    body { font-family: 'Inter', sans-serif; color: #444; background: #fff; }
+    h1, h2, h3, h4, h5, h6, .nav-link, .btn { font-family: 'Exo', sans-serif; text-transform: uppercase; }
+    
+    /* TOP BAR (Black Strip) */
+    .top-bar { background: var(--dark); color: white; font-size: 12px; padding: 8px 0; font-weight: 600; }
+    .top-bar i { color: var(--primary); margin-right: 5px; }
+    
+    /* HEADER */
+    .site-header { padding: 25px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-size: 32px; font-weight: 800; letter-spacing: -1px; color: black; text-decoration: none; }
+    .logo span { color: var(--primary); }
+    
+    /* NAVIGATION (The "Anglets") */
+    .main-nav { border-bottom: 1px solid var(--border); background: white; }
+    .nav-link { color: #333 !important; font-weight: 700; font-size: 14px; padding: 18px 15px !important; letter-spacing: 0.5px; }
+    .nav-link:hover, .nav-link.active { color: var(--primary) !important; }
+    
+    /* PRODUCT GRID */
+    .product-card { 
+        border: 1px solid var(--border); 
+        transition: all 0.3s ease; 
+        position: relative; 
+        background: white;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .product-card:hover { border-color: var(--primary); transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.08); }
+    
+    .card-img-wrap { position: relative; padding-top: 100%; overflow: hidden; }
+    .card-img-wrap img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; padding: 20px; transition: 0.5s; }
+    .product-card:hover img { transform: scale(1.1); }
+    
+    /* BADGES */
+    .badge-promo { 
+        position: absolute; top: 10px; right: 10px; 
+        background: var(--primary); color: white; 
+        font-size: 11px; font-weight: 700; 
+        padding: 4px 8px; border-radius: 4px; z-index: 2;
+    }
+    
+    /* PRICES */
+    .price-wrap { color: var(--primary); font-weight: 800; font-size: 18px; margin: 10px 0; }
+    .price-old { text-decoration: line-through; color: #999; font-size: 14px; font-weight: 400; margin-right: 5px; }
+    
+    /* BUTTONS */
+    .btn-cart { 
+        background: white; color: var(--dark); 
+        border: 2px solid var(--dark); 
+        width: 100%; padding: 10px; 
+        font-weight: 700; font-size: 13px; 
+        transition: 0.3s; 
+    }
+    .btn-cart:hover { background: var(--primary); border-color: var(--primary); color: white; }
+    
+    /* SNIPCART OVERRIDES */
+    .snipcart-modal__container { z-index: 9999; }
+    

@@ -1,0 +1,11 @@
+---
+title: "Oreo Mini Rouleaux Croustillants Cacao Vanille 50G"
+date: 2022-01-01
+draft: false
+price: "54.00"
+categories: ["Boissons"]
+image: "/images/products/Oreo_Mini_Rouleaux_Croustillants_Cacao_Vanille_50g.png"
+sku: "MEC-75875"
+---
+Découvrez **Oreo Mini Rouleaux Croustillants Cacao Vanille 50G**, un produit de qualité sélectionné pour vous.
+Disponible immédiatement en stock.

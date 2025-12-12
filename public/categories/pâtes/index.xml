@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pâtes on Hargo | Hugo Ecommerce Site</title>
+    <link>//localhost:1313/categories/p%C3%A2tes/</link>
+    <description>Recent content in Pâtes on Hargo | Hugo Ecommerce Site</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Jan 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/p%C3%A2tes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spaghetti Barilla n°5</title>
+      <link>//localhost:1313/products/product-11/</link>
+      <pubDate>Wed, 01 Jan 2025 12:00:00 +0000</pubDate>
+      <guid>//localhost:1313/products/product-11/</guid>
+      <description>&lt;p&gt;Description détaillée de Spaghetti Barilla n°5.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

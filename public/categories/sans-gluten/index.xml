@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sans Gluten on Hargo | Hugo Ecommerce Site</title>
+    <link>//localhost:1313/categories/sans-gluten/</link>
+    <description>Recent content in Sans Gluten on Hargo | Hugo Ecommerce Site</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Oct 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/sans-gluten/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sans Gluten Premium 13</title>
+      <link>//localhost:1313/english/products/product-13/</link>
+      <pubDate>Fri, 24 Oct 2025 12:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/products/product-13/</guid>
+      <description>&lt;p&gt;Description courte du produit 13 pour le client.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sans Gluten Premium 20</title>
+      <link>//localhost:1313/english/products/product-20/</link>
+      <pubDate>Fri, 24 Oct 2025 12:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/products/product-20/</guid>
+      <description>&lt;p&gt;Description courte du produit 20 pour le client.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sans Gluten Premium 4</title>
+      <link>//localhost:1313/english/products/product-4/</link>
+      <pubDate>Fri, 24 Oct 2025 12:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/products/product-4/</guid>
+      <description>&lt;p&gt;Description courte du produit 4 pour le client.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sans Gluten Premium 7</title>
+      <link>//localhost:1313/english/products/product-7/</link>
+      <pubDate>Fri, 24 Oct 2025 12:00:00 +0000</pubDate>
+      <guid>//localhost:1313/english/products/product-7/</guid>
+      <description>&lt;p&gt;Description courte du produit 7 pour le client.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
