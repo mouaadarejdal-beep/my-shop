@@ -1,10 +1,10 @@
 ---
 title: "Summer Box First Edition"
-date: 2022-01-01
+date: 2023-01-01
 draft: false
 price: "32.00"
 old_price: "38.00"
-categories: ["Nouveautés"]
+categories: ["Boissons"]
 image: "/images/products/Summer_Box_First_Edition.png"
 sku: "MEC-1013"
 ---

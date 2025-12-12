@@ -1,10 +1,10 @@
 ---
 title: "Nutella  Go 52G"
-date: 2022-01-01
+date: 2023-01-01
 draft: false
 price: "58.00"
 old_price: "69.00"
-categories: ["Sucrées"]
+categories: ["Courses"]
 image: "/images/products/Nutella__Go_52g.png"
 sku: "MEC-1005"
 ---

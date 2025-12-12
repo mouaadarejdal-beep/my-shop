@@ -1,10 +1,10 @@
 ---
 title: "Nestl Extrafino Tosta Rica 84G"
-date: 2022-01-01
+date: 2023-01-01
 draft: false
 price: "32.00"
 old_price: "38.00"
-categories: ["Nouveautés"]
+categories: ["Sucrées"]
 image: "/images/products/Nestl_Extrafino_Tosta_Rica_84g.png"
 sku: "MEC-1004"
 ---

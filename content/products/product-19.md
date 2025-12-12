@@ -1,10 +1,10 @@
 ---
 title: "Woogie Caramels Au Lait Cacao 250G"
-date: 2022-01-01
+date: 2023-01-01
 draft: false
 price: "98.00"
 old_price: "117.00"
-categories: ["Nouveautés"]
+categories: ["Sucrées"]
 image: "/images/products/Woogie_Caramels_Au_Lait_Cacao_250g.png"
 sku: "MEC-1019"
 ---

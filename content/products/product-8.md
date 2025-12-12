@@ -1,10 +1,10 @@
 ---
 title: "Raffaello 4 Pices 40G"
-date: 2022-01-01
+date: 2023-01-01
 draft: false
 price: "65.00"
 old_price: "78.00"
-categories: ["Nouveautés"]
+categories: ["Courses"]
 image: "/images/products/Raffaello_4_Pices_40g.png"
 sku: "MEC-1008"
 ---

@@ -1,10 +1,10 @@
 ---
 title: "Royal Cuajada 48G"
-date: 2022-01-01
+date: 2023-01-01
 draft: false
 price: "53.00"
 old_price: "63.00"
-categories: ["Nouveautés"]
+categories: ["Boissons"]
 image: "/images/products/Royal_Cuajada_48g.png"
 sku: "MEC-1010"
 ---
