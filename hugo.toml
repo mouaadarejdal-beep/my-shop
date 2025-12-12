@@ -3,13 +3,4 @@ baseURL = '/'
 languageCode = 'fr-fr'
 title = 'MECADO'
 theme = []
-enableRobotsTXT = true
-
-[params]
-  description = "MECADO - Votre épicerie fine en ligne au Maroc."
-  currency = "MAD"
-  phone = "212600000000"
-  free_shipping_threshold = 300
-
-[outputs]
-  home = ["HTML", "JSON"] # For Search functionality
+relativeURLs = true
