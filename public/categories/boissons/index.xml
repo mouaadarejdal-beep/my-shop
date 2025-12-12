@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Boissons on MECADO</title>
-    <link>/categories/boissons/</link>
+    <link>//localhost:1313/categories/boissons/</link>
     <description>Recent content in Boissons on MECADO</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
     <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/categories/boissons/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/boissons/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Oreo International Delight Iced Coffee 443Ml</title>
-      <link>/products/product-6/</link>
+      <link>//localhost:1313/products/product-6/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>/products/product-6/</guid>
+      <guid>//localhost:1313/products/product-6/</guid>
       <description>&lt;p&gt;Profitez de &lt;strong&gt;Oreo International Delight Iced Coffee 443Ml&lt;/strong&gt; au meilleur prix.&#xA;Produit importé authentique, stocké dans nos entrepôts.&#xA;Livraison rapide garantie.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Oreo Mini Rouleaux Croustillants Cacao Vanille 50G</title>
-      <link>/products/product-7/</link>
+      <link>//localhost:1313/products/product-7/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>/products/product-7/</guid>
+      <guid>//localhost:1313/products/product-7/</guid>
       <description>&lt;p&gt;Profitez de &lt;strong&gt;Oreo Mini Rouleaux Croustillants Cacao Vanille 50G&lt;/strong&gt; au meilleur prix.&#xA;Produit importé authentique, stocké dans nos entrepôts.&#xA;Livraison rapide garantie.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reeses International Delight Iced Coffee 443Ml</title>
-      <link>/products/product-9/</link>
+      <link>//localhost:1313/products/product-9/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>/products/product-9/</guid>
+      <guid>//localhost:1313/products/product-9/</guid>
       <description>&lt;p&gt;Profitez de &lt;strong&gt;Reeses International Delight Iced Coffee 443Ml&lt;/strong&gt; au meilleur prix.&#xA;Produit importé authentique, stocké dans nos entrepôts.&#xA;Livraison rapide garantie.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Twix Boisson Lait Chocolate Au Caramel 350Ml</title>
-      <link>/products/product-16/</link>
+      <link>//localhost:1313/products/product-16/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>/products/product-16/</guid>
+      <guid>//localhost:1313/products/product-16/</guid>
       <description>&lt;p&gt;Profitez de &lt;strong&gt;Twix Boisson Lait Chocolate Au Caramel 350Ml&lt;/strong&gt; au meilleur prix.&#xA;Produit importé authentique, stocké dans nos entrepôts.&#xA;Livraison rapide garantie.&lt;/p&gt;</description>
     </item>
   </channel>

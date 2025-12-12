@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on MECADO</title>
-    <link>/categories/</link>
+    <link>//localhost:1313/categories/</link>
     <description>Recent content in Categories on MECADO</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
     <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Boissons</title>
-      <link>/categories/boissons/</link>
+      <link>//localhost:1313/categories/boissons/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>/categories/boissons/</guid>
+      <guid>//localhost:1313/categories/boissons/</guid>
       <description></description>
     </item>
     <item>
       <title>Nouveautés</title>
-      <link>/categories/nouveaut%C3%A9s/</link>
+      <link>//localhost:1313/categories/nouveaut%C3%A9s/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>/categories/nouveaut%C3%A9s/</guid>
+      <guid>//localhost:1313/categories/nouveaut%C3%A9s/</guid>
       <description></description>
     </item>
     <item>
       <title>Sucrées</title>
-      <link>/categories/sucr%C3%A9es/</link>
+      <link>//localhost:1313/categories/sucr%C3%A9es/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>/categories/sucr%C3%A9es/</guid>
+      <guid>//localhost:1313/categories/sucr%C3%A9es/</guid>
       <description></description>
     </item>
   </channel>
