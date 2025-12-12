@@ -1,10 +1,10 @@
 ---
 title: "Woogie Caramels Au Lait 250G"
-date: 2023-01-01
+date: 2022-01-01
 draft: false
 price: "68.00"
 old_price: "81.00"
-categories: ["Salées"]
+categories: ["Nouveautés"]
 image: "/images/products/Woogie_Caramels_Au_Lait_250g.png"
 sku: "MEC-1018"
 ---

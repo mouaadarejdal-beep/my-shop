@@ -1,10 +1,10 @@
 ---
 title: "Nestl Extrafino Dinosaurus 84G"
-date: 2023-01-01
+date: 2022-01-01
 draft: false
 price: "33.00"
 old_price: "39.00"
-categories: ["Salées"]
+categories: ["Nouveautés"]
 image: "/images/products/Nestl_Extrafino_Dinosaurus_84g.png"
 sku: "MEC-1002"
 ---
