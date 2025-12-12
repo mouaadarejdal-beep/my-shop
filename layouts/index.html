@@ -1,10 +1,11 @@
-
 <!doctype html>
 <html lang="fr">
-<head><title>MECADO</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MECADO</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.7.2/default/snipcart.css" />
     <style>
         :root { --primary: #d04f27; --dark: #222; }
         body { font-family: 'Segoe UI', sans-serif; background: #fff; }
@@ -15,16 +16,12 @@
         .navbar-brand { font-weight: 900; font-size: 28px; color: #000; letter-spacing: -1px; }
         .navbar-brand span { color: var(--primary); }
         
-        /* NAV TABS */
-        .nav-pills .nav-link { color: #555; font-weight: 700; text-transform: uppercase; font-size: 13px; padding: 10px 20px; border-radius: 30px; margin: 0 5px; }
-        .nav-pills .nav-link.active, .nav-pills .nav-link:hover { background-color: var(--primary); color: white; }
-        
         /* PRODUCT CARD */
         .product-card { border: 1px solid #eee; transition: 0.3s; height: 100%; position: relative; background: white; }
         .product-card:hover { box-shadow: 0 10px 25px rgba(0,0,0,0.1); border-color: var(--primary); }
-        .badge-save { position: absolute; top: 10px; left: 10px; background: var(--primary); color: white; font-size: 11px; font-weight: bold; padding: 4px 8px; border-radius: 4px; }
+        .badge-save { position: absolute; top: 10px; left: 10px; background: var(--primary); color: white; font-size: 11px; font-weight: bold; padding: 4px 8px; border-radius: 4px; z-index: 10; }
         
-        .img-wrap { position: relative; padding-top: 100%; overflow: hidden; }
+        .img-wrap { position: relative; padding-top: 100%; overflow: hidden; display: block; }
         .img-wrap img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; padding: 20px; transition: transform 0.5s; }
         .product-card:hover img { transform: scale(1.1); }
         
@@ -32,15 +29,15 @@
         .price-new { color: var(--primary); font-weight: 800; font-size: 18px; }
         .price-old { text-decoration: line-through; color: #999; font-size: 14px; margin-right: 5px; }
         
-        .btn-add { width: 100%; background: white; border: 2px solid var(--dark); color: var(--dark); font-weight: 700; font-size: 12px; padding: 10px; transition: 0.3s; text-transform: uppercase; }
+        .btn-add { width: 100%; background: white; border: 2px solid var(--dark); color: var(--dark); font-weight: 700; font-size: 12px; padding: 10px; transition: 0.3s; text-transform: uppercase; cursor: pointer; }
         .btn-add:hover { background: var(--primary); border-color: var(--primary); color: white; }
         
-        /* FOOTER */
-        footer { background: #111; color: #777; padding: 50px 0; margin-top: 50px; font-size: 13px; }
-        footer h5 { color: white; font-weight: 700; margin-bottom: 20px; }
-        footer ul li { margin-bottom: 8px; }
+        /* NAV TABS */
+        .nav-pills .nav-link { color: #555; font-weight: 700; text-transform: uppercase; font-size: 13px; padding: 10px 20px; border-radius: 30px; margin: 0 5px; cursor: pointer; }
+        .nav-pills .nav-link.active, .nav-pills .nav-link:hover { background-color: var(--primary); color: white; }
     </style>
-    </head>
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.7.2/default/snipcart.css" />
+</head>
 <body>
     <div class="top-bar"><div class="container text-center"><i class="fas fa-truck"></i> LIVRAISON GRATUITE DÈS 300 DH</div></div>
     
@@ -48,10 +45,6 @@
         <div class="container">
             <a class="navbar-brand" href="/">MECADO<span>.</span></a>
             <div class="d-flex align-items-center gap-3">
-                <div class="input-group d-none d-md-flex" style="width: 300px;">
-                    <input type="text" class="form-control" placeholder="Rechercher...">
-                    <button class="btn btn-dark"><i class="fas fa-search"></i></button>
-                </div>
                 <button class="btn btn-outline-dark fw-bold rounded-pill snipcart-checkout">
                     <i class="fas fa-shopping-basket"></i> <span class="snipcart-items-count">0</span>
                 </button>
@@ -59,8 +52,6 @@
         </div>
     </nav>
 
-    {{ define "main" }}
-    
     <div class="container mt-4">
         <div class="p-5 text-white rounded-3 d-flex align-items-center" style="background: linear-gradient(45deg, #111, #d04f27); min-height: 300px;">
             <div class="ps-md-5">
@@ -112,7 +103,6 @@
             {{ end }}
         </div>
     </div>
-    {{ end }}
 
     <script>
         function filter(cat) {
@@ -124,36 +114,15 @@
         }
     </script>
 
-    <footer class="mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h5 class="text-white">MECADO.</h5>
-                    <p>Votre satisfaction est notre priorité.</p>
-                </div>
-                <div class="col-md-4">
-                    <h5>CONTACT</h5>
-                    <ul class="list-unstyled">
-                        <li>Casablanca, Maroc</li>
-                        <li>+212 600 000 000</li>
-                        <li>contact@mecado.ma</li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h5>PAIEMENT</h5>
-                    <div class="fs-2">
-                        <i class="fab fa-cc-visa"></i> <i class="fab fa-cc-mastercard"></i> <i class="fas fa-money-bill"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-4 pt-4 border-top border-secondary">© 2025 MECADO</div>
+    <footer class="mt-5 bg-dark text-white p-5">
+        <div class="container text-center">
+            <h4>MECADO.</h4>
+            <p>© 2025 Tous droits réservés.</p>
         </div>
     </footer>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script async src="https://cdn.snipcart.com/themes/v3.7.2/default/snipcart.js"></script>
     <div hidden id="snipcart" data-api-key="OWUxZTM0MzItNjA5MC00YmYxLWE1YmItZmRiMmFmZTRmMzY1NjM3NDc2Njk1Nzc4OTIwNDY0" data-config-modal-style="side"></div>
-    
 </body>
 </html>
-    
