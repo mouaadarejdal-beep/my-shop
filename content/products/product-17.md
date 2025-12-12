@@ -4,7 +4,7 @@ date: 2022-01-01
 draft: false
 price: "119.00"
 old_price: "142.00"
-categories: ["Sucrées"]
+categories: ["Nouveautés"]
 image: "/images/products/Twix_Caramel_Centres_Cookies_144g.png"
 sku: "MEC-1017"
 ---

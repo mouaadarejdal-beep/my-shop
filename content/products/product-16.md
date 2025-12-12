@@ -4,7 +4,7 @@ date: 2022-01-01
 draft: false
 price: "96.00"
 old_price: "115.00"
-categories: ["Boissons"]
+categories: ["Nouveautés"]
 image: "/images/products/Twix_Boisson_Lait_Chocolate_au_Caramel_350ml.png"
 sku: "MEC-1016"
 ---

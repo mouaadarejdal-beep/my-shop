@@ -4,7 +4,7 @@ date: 2022-01-01
 draft: false
 price: "121.00"
 old_price: "145.00"
-categories: ["Boissons"]
+categories: ["Nouveautés"]
 image: "/images/products/Oreo_Mini_Rouleaux_Croustillants_Cacao_Vanille_50g.png"
 sku: "MEC-1007"
 ---

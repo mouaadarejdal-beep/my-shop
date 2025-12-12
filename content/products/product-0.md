@@ -4,7 +4,7 @@ date: 2022-01-01
 draft: false
 price: "87.00"
 old_price: "104.00"
-categories: ["Sucrées"]
+categories: ["Nouveautés"]
 image: "/images/products/Nestl_Caja_Roja__Assortiment_Dlicieux_de_11_Varits_de_Chocolats_103g.png"
 sku: "MEC-1000"
 ---

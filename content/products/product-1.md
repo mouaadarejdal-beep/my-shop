@@ -4,7 +4,7 @@ date: 2022-01-01
 draft: false
 price: "149.00"
 old_price: "178.00"
-categories: ["Sucrées"]
+categories: ["Nouveautés"]
 image: "/images/products/Nestl_Chocolat_Au_Lait_Sans_Sucre_115g.png"
 sku: "MEC-1001"
 ---

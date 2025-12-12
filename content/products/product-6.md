@@ -4,7 +4,7 @@ date: 2022-01-01
 draft: false
 price: "110.00"
 old_price: "132.00"
-categories: ["Boissons"]
+categories: ["Nouveautés"]
 image: "/images/products/Oreo_International_Delight_Iced_Coffee_443ml.png"
 sku: "MEC-1006"
 ---

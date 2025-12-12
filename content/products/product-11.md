@@ -4,7 +4,7 @@ date: 2022-01-01
 draft: false
 price: "64.00"
 old_price: "76.00"
-categories: ["Sucrées"]
+categories: ["Nouveautés"]
 image: "/images/products/Suchard_Bombones_au_Chocolat_au_Lait_avec_Cur_Crmeux_127g.png"
 sku: "MEC-1011"
 ---
