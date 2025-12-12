@@ -4,3 +4,13 @@ languageCode = 'fr-fr'
 title = 'MECADO'
 theme = []
 relativeURLs = true
+
+[params]
+  description = "Le meilleur de l'épicerie fine et des produits importés au Maroc."
+  author = "MECADO"
+  # SEO Images
+  og_image = "/images/og-default.jpg"
+  
+  # Analytics placeholders (P2)
+  google_analytics_id = "G-XXXXXXXXXX" 
+  pixel_id = "123456789"
