@@ -2,84 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/boissons/</loc>
+    <loc>//localhost:1313/categories/boissons/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-0/</loc>
+    <loc>//localhost:1313/products/product-0/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-1/</loc>
+    <loc>//localhost:1313/products/product-1/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-2/</loc>
+    <loc>//localhost:1313/products/product-2/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-3/</loc>
+    <loc>//localhost:1313/products/product-3/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-4/</loc>
+    <loc>//localhost:1313/products/product-4/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/nouveaut%C3%A9s/</loc>
+    <loc>//localhost:1313/categories/nouveaut%C3%A9s/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-5/</loc>
+    <loc>//localhost:1313/products/product-5/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-6/</loc>
+    <loc>//localhost:1313/products/product-6/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-7/</loc>
+    <loc>//localhost:1313/products/product-7/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/</loc>
+    <loc>//localhost:1313/products/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-8/</loc>
+    <loc>//localhost:1313/products/product-8/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-9/</loc>
+    <loc>//localhost:1313/products/product-9/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-10/</loc>
+    <loc>//localhost:1313/products/product-10/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-11/</loc>
+    <loc>//localhost:1313/products/product-11/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/sucr%C3%A9es/</loc>
+    <loc>//localhost:1313/categories/sucr%C3%A9es/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-12/</loc>
+    <loc>//localhost:1313/products/product-12/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-13/</loc>
+    <loc>//localhost:1313/products/product-13/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-14/</loc>
+    <loc>//localhost:1313/products/product-14/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-15/</loc>
+    <loc>//localhost:1313/products/product-15/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-16/</loc>
+    <loc>//localhost:1313/products/product-16/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-17/</loc>
+    <loc>//localhost:1313/products/product-17/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-18/</loc>
+    <loc>//localhost:1313/products/product-18/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/products/product-19/</loc>
+    <loc>//localhost:1313/products/product-19/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>
