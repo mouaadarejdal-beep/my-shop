@@ -1,171 +1,102 @@
 
 <!doctype html>
 <html lang="fr">
-
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>MECADO | Boutique en Ligne</title>
+<head><title>Royal Cuajada 48G</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.7.2/default/snipcart.css" />
+    <style>
+        :root { --primary: #d04f27; --dark: #222; }
+        body { font-family: 'Segoe UI', sans-serif; background: #fff; }
+        a { text-decoration: none; }
         
-        <meta name="description" content="Découvrez les meilleurs produits importés au Maroc. Livraison rapide et paiement à la livraison.">
-        <meta property="og:title" content="MECADO">
-        <meta property="og:description" content="Épicerie fine, chocolats, snacks et boissons importées.">
-        <meta property="og:image" content="/images/og-cover.jpg">
+         
+        .top-bar { background: var(--dark); color: white; font-size: 12px; padding: 5px 0; font-weight: bold; }
+        .navbar-brand { font-weight: 900; font-size: 28px; color: #000; letter-spacing: -1px; }
+        .navbar-brand span { color: var(--primary); }
         
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        <link rel="stylesheet" href="../../css/style.css">
-        <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.7.2/default/snipcart.css" />
+         
+        .nav-pills .nav-link { color: #555; font-weight: 700; text-transform: uppercase; font-size: 13px; padding: 10px 20px; border-radius: 30px; margin: 0 5px; }
+        .nav-pills .nav-link.active, .nav-pills .nav-link:hover { background-color: var(--primary); color: white; }
         
-        </head>
-    
-<body style="background: #fff;">
-
-    <nav class="navbar border-bottom sticky-top bg-white">
+         
+        .product-card { border: 1px solid #eee; transition: 0.3s; height: 100%; position: relative; background: white; }
+        .product-card:hover { box-shadow: 0 10px 25px rgba(0,0,0,0.1); border-color: var(--primary); }
+        .badge-save { position: absolute; top: 10px; left: 10px; background: var(--primary); color: white; font-size: 11px; font-weight: bold; padding: 4px 8px; border-radius: 4px; }
+        
+        .img-wrap { position: relative; padding-top: 100%; overflow: hidden; }
+        .img-wrap img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; padding: 20px; transition: transform 0.5s; }
+        .product-card:hover img { transform: scale(1.1); }
+        
+        .card-body { padding: 15px; text-align: center; }
+        .price-new { color: var(--primary); font-weight: 800; font-size: 18px; }
+        .price-old { text-decoration: line-through; color: #999; font-size: 14px; margin-right: 5px; }
+        
+        .btn-add { width: 100%; background: white; border: 2px solid var(--dark); color: var(--dark); font-weight: 700; font-size: 12px; padding: 10px; transition: 0.3s; text-transform: uppercase; }
+        .btn-add:hover { background: var(--primary); border-color: var(--primary); color: white; }
+        
+         
+        footer { background: #111; color: #777; padding: 50px 0; margin-top: 50px; font-size: 13px; }
+        footer h5 { color: white; font-weight: 700; margin-bottom: 20px; }
+        footer ul li { margin-bottom: 8px; }
+    </style>
+    </head>
+<body>
+    <nav class="navbar bg-white border-bottom sticky-top">
         <div class="container">
-            <a href="../../" class="text-dark fw-bold text-decoration-none"><i class="fas fa-arrow-left me-2"></i> RETOUR</a>
-            <button class="btn btn-dark rounded-0 snipcart-checkout">PANIER <span class="snipcart-items-count">0</span></button>
+            <a href="../../" class="fw-bold text-dark"><i class="fas fa-arrow-left"></i> RETOUR</a>
+            <button class="btn btn-dark rounded-pill fw-bold snipcart-checkout">
+                Panier <span class="snipcart-items-count">0</span>
+            </button>
         </div>
     </nav>
 
     <div class="container py-5">
-        <div class="row gx-5">
-            <div class="col-md-6 mb-4">
-                <div class="border p-5 text-center bg-white rounded-3">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-4 text-center">
+                <div class="border rounded p-5 bg-white">
                     <img src="../../images/products/Royal_Cuajada_48g.png" class="img-fluid" style="max-height: 500px;">
                 </div>
             </div>
-
             <div class="col-md-6">
-                <span class="badge bg-secondary mb-2">Nouveautés</span>
+                <span class="badge bg-dark mb-2">Nouveautés</span>
                 <h1 class="display-5 fw-bold mb-3">Royal Cuajada 48G</h1>
+                <div class="mb-3 text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                 
-                <div class="mb-3 text-warning">
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                    <span class="text-dark small ms-2">(Avis Clients)</span>
+                <div class="d-flex align-items-center mb-4">
+                    <span class="text-decoration-line-through text-muted fs-4 me-3">63.00 MAD</span>
+                    <span class="display-6 fw-bold" style="color: #d04f27;">53.00 MAD</span>
                 </div>
 
-                <div class="h2 text-danger fw-bold mb-4">53.00 MAD</div>
-                
-                <ul class="nav nav-tabs mb-3" id="myTab">
-                    <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#desc">Description</button></li>
-                    <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#ship">Livraison</button></li>
-                </ul>
-                <div class="tab-content mb-4 p-3 border border-top-0 rounded-bottom">
-                    <div class="tab-pane fade show active" id="desc">
-                        <p>Profitez de <strong>Royal Cuajada 48G</strong> au meilleur prix.
+                <p class="lead text-muted mb-4"><p>Profitez de <strong>Royal Cuajada 48G</strong> au meilleur prix.
 Produit importé authentique, stocké dans nos entrepôts.
 Livraison rapide garantie.</p>
-
-                        <br><br><strong>Ingrédients:</strong> Sucre, Cacao, Lait (Exemple).
-                    </div>
-                    <div class="tab-pane fade" id="ship">
-                        <i class="fas fa-truck text-success me-2"></i> Expédié sous 24h.
-                        <br>Livraison à domicile via Amana ou Coursier.
-                    </div>
-                </div>
-
-                <div class="d-grid gap-2 mb-3">
-                    <button class="btn btn-danger btn-lg rounded-0 fw-bold snipcart-add-item"
+</p>
+                
+                <div class="d-grid gap-2">
+                    <button class="btn btn-lg fw-bold text-white snipcart-add-item" style="background: #d04f27; padding: 15px;"
                         data-item-id="MEC-1010"
                         data-item-price="53.00"
-                        data-item-url="//localhost:1313/products/product-10/"
+                        data-item-url="../../products/product-10/"
                         data-item-name="Royal Cuajada 48G"
                         data-item-image="/images/products/Royal_Cuajada_48g.png"
-                        data-item-custom1-name="Téléphone"
-                        data-item-custom1-required="true">
+                        data-item-description="Produit MECADO">
                         AJOUTER AU PANIER
                     </button>
-                    
-                    <a href="https://wa.me/212600000000?text=Je veux commander: Royal%20Cuajada%2048G" target="_blank" class="btn btn-success rounded-0 fw-bold">
-                        <i class="fab fa-whatsapp me-2"></i> COMMANDER SUR WHATSAPP
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="mt-5 pt-5 border-top">
-            <h3 class="fw-bold mb-4">VOUS AIMEREZ AUSSI</h3>
-            <div class="row g-3">
-                
-                <div class="col-6 col-md-3">
-                    <div class="product-card">
-                        <a href="//localhost:1313/products/product-0/" class="img-wrap">
-                            <img src="../../images/products/Nestl_Caja_Roja__Assortiment_Dlicieux_de_11_Varits_de_Chocolats_103g.png" loading="lazy">
-                        </a>
-                        <div class="p-3 text-center">
-                            <h6 class="fw-bold text-truncate">Nestl Caja Roja  Assortiment Dlicieux De 11 Varits De Chocolats 103G</h6>
-                            <div class="text-danger fw-bold">87.00 MAD</div>
-                        </div>
-                    </div>
                 </div>
                 
-                <div class="col-6 col-md-3">
-                    <div class="product-card">
-                        <a href="//localhost:1313/products/product-1/" class="img-wrap">
-                            <img src="../../images/products/Nestl_Chocolat_Au_Lait_Sans_Sucre_115g.png" loading="lazy">
-                        </a>
-                        <div class="p-3 text-center">
-                            <h6 class="fw-bold text-truncate">Nestl Chocolat Au Lait Sans Sucre 115G</h6>
-                            <div class="text-danger fw-bold">149.00 MAD</div>
-                        </div>
-                    </div>
+                <div class="row mt-4 text-center small text-muted">
+                    <div class="col"><i class="fas fa-truck fa-2x mb-1"></i><br>24/48H</div>
+                    <div class="col"><i class="fas fa-shield-alt fa-2x mb-1"></i><br>Garantie</div>
+                    <div class="col"><i class="fas fa-phone fa-2x mb-1"></i><br>Support</div>
                 </div>
-                
-                <div class="col-6 col-md-3">
-                    <div class="product-card">
-                        <a href="//localhost:1313/products/product-2/" class="img-wrap">
-                            <img src="../../images/products/Nestl_Extrafino_Dinosaurus_84g.png" loading="lazy">
-                        </a>
-                        <div class="p-3 text-center">
-                            <h6 class="fw-bold text-truncate">Nestl Extrafino Dinosaurus 84G</h6>
-                            <div class="text-danger fw-bold">33.00 MAD</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-6 col-md-3">
-                    <div class="product-card">
-                        <a href="//localhost:1313/products/product-3/" class="img-wrap">
-                            <img src="../../images/products/Nestl_Extrafino_Dulce_De_Leche_83g.png" loading="lazy">
-                        </a>
-                        <div class="p-3 text-center">
-                            <h6 class="fw-bold text-truncate">Nestl Extrafino Dulce De Leche 83G</h6>
-                            <div class="text-danger fw-bold">26.00 MAD</div>
-                        </div>
-                    </div>
-                </div>
-                
             </div>
         </div>
     </div>
-
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script async src="https://cdn.snipcart.com/themes/v3.7.2/default/snipcart.js"></script>
-    <div hidden id="snipcart" 
-         data-api-key="OWUxZTM0MzItNjA5MC00YmYxLWE1YmItZmRiMmFmZTRmMzY1NjM3NDc2Njk1Nzc4OTIwNDY0" 
-         data-config-modal-style="side" 
-         data-currency="mad">
-    </div>
-    
-    <script>
-        function filter(cat) {
-            document.querySelectorAll('.product-col').forEach(el => {
-                el.style.display = (cat === 'all' || el.dataset.cat === cat) ? 'block' : 'none';
-            });
-            document.querySelectorAll('.cat-link').forEach(l => l.classList.remove('active', 'text-danger'));
-            event.target.classList.add('active', 'text-danger');
-        }
-        
-        function search() {
-            let q = document.getElementById('search').value.toLowerCase();
-            document.querySelectorAll('.product-col').forEach(el => {
-                let title = el.querySelector('h6').innerText.toLowerCase();
-                el.style.display = title.includes(q) ? 'block' : 'none';
-            });
-        }
-    </script>
+    <div hidden id="snipcart" data-api-key="OWUxZTM0MzItNjA5MC00YmYxLWE1YmItZmRiMmFmZTRmMzY1NjM3NDc2Njk1Nzc4OTIwNDY0" data-config-modal-style="side"></div>
     
 </body>
 </html>
