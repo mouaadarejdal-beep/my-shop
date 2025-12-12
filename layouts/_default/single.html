@@ -1,69 +1,51 @@
 
 <!doctype html>
 <html lang="fr">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>MECADO | Boutique en Ligne</title>
-        
-        <meta name="description" content="Découvrez les meilleurs produits importés au Maroc. Livraison rapide et paiement à la livraison.">
-        <meta property="og:title" content="MECADO">
-        <meta property="og:description" content="Épicerie fine, chocolats, snacks et boissons importées.">
-        <meta property="og:image" content="/images/og-cover.jpg">
-        
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        <link rel="stylesheet" href="/css/style.css">
-        <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.7.2/default/snipcart.css" />
-        
-        </head>
+<head><title>{{ .Title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.7.2/default/snipcart.css" />
+    </head>
+<body>
     
-<body style="background: #fff;">
-
-    <nav class="navbar border-bottom sticky-top bg-white">
-        <div class="container">
-            <a href="/" class="text-dark fw-bold text-decoration-none"><i class="fas fa-arrow-left me-2"></i> RETOUR</a>
-            <button class="btn btn-dark rounded-0 snipcart-checkout">PANIER <span class="snipcart-items-count">0</span></button>
+    <div class="top-bar"><div class="container text-center">Livraison Gratuite dès 300 DH</div></div>
+    <nav class="bg-white border-bottom py-3 sticky-top">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="/" class="fw-bold text-dark"><i class="fas fa-chevron-left text-danger"></i> RETOUR BOUTIQUE</a>
+            <button class="btn btn-outline-dark snipcart-checkout">
+                <i class="fas fa-shopping-basket"></i> <span class="snipcart-items-count">0</span>
+            </button>
         </div>
     </nav>
 
     <div class="container py-5">
         <div class="row gx-5">
             <div class="col-md-6 mb-4">
-                <div class="border p-5 text-center bg-white rounded-3">
+                <div class="border p-5 bg-white text-center">
                     <img src="{{ .Params.image }}" class="img-fluid" style="max-height: 500px;">
                 </div>
             </div>
 
             <div class="col-md-6">
-                <span class="badge bg-secondary mb-2">{{ index .Params.categories 0 }}</span>
-                <h1 class="display-5 fw-bold mb-3">{{ .Title }}</h1>
+                <span class="text-muted text-uppercase fw-bold small">{{ index .Params.categories 0 }}</span>
+                <h1 class="fw-bold mt-2 mb-3" style="font-family:'Exo'; font-size: 2.5rem;">{{ .Title }}</h1>
                 
-                <div class="mb-3 text-warning">
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                    <span class="text-dark small ms-2">(Avis Clients)</span>
-                </div>
-
                 <div class="h2 text-danger fw-bold mb-4">{{ .Params.price }} MAD</div>
                 
-                <ul class="nav nav-tabs mb-3" id="myTab">
-                    <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#desc">Description</button></li>
-                    <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#ship">Livraison</button></li>
-                </ul>
-                <div class="tab-content mb-4 p-3 border border-top-0 rounded-bottom">
-                    <div class="tab-pane fade show active" id="desc">
-                        {{ .Content }}
-                        <br><br><strong>Ingrédients:</strong> Sucre, Cacao, Lait (Exemple).
-                    </div>
-                    <div class="tab-pane fade" id="ship">
-                        <i class="fas fa-truck text-success me-2"></i> Expédié sous 24h.
-                        <br>Livraison à domicile via Amana ou Coursier.
-                    </div>
-                </div>
+                <p class="text-secondary lead mb-4" style="font-size:16px;">
+                    {{ .Content }}
+                    <br><br>
+                    Produit en stock. Commandez maintenant pour une expédition rapide.
+                </p>
 
-                <div class="d-grid gap-2 mb-3">
-                    <button class="btn btn-danger btn-lg rounded-0 fw-bold snipcart-add-item"
+                <hr class="my-4">
+
+                <div class="d-flex gap-3">
+                    <input type="number" class="form-control text-center fw-bold" value="1" min="1" style="width: 70px;">
+                    <button class="btn btn-danger w-100 py-3 fw-bold text-uppercase snipcart-add-item"
                         data-item-id="{{ .Params.sku }}"
                         data-item-price="{{ .Params.price }}"
                         data-item-url="{{ .Permalink }}"
@@ -73,30 +55,16 @@
                         data-item-custom1-required="true">
                         AJOUTER AU PANIER
                     </button>
-                    
-                    <a href="https://wa.me/212600000000?text=Je veux commander: {{ .Title }}" target="_blank" class="btn btn-success rounded-0 fw-bold">
-                        <i class="fab fa-whatsapp me-2"></i> COMMANDER SUR WHATSAPP
-                    </a>
                 </div>
-            </div>
-        </div>
-        
-        <div class="mt-5 pt-5 border-top">
-            <h3 class="fw-bold mb-4">VOUS AIMEREZ AUSSI</h3>
-            <div class="row g-3">
-                {{ range first 4 (where .Site.RegularPages "Type" "products") }}
-                <div class="col-6 col-md-3">
-                    <div class="product-card">
-                        <a href="{{ .Permalink }}" class="img-wrap">
-                            <img src="{{ .Params.image }}" loading="lazy">
-                        </a>
-                        <div class="p-3 text-center">
-                            <h6 class="fw-bold text-truncate">{{ .Title }}</h6>
-                            <div class="text-danger fw-bold">{{ .Params.price }} MAD</div>
-                        </div>
+
+                <div class="mt-4 pt-3 border-top">
+                    <div class="d-flex align-items-center mb-2 text-muted small">
+                        <i class="fas fa-check-circle text-success me-2"></i> Stock disponible
+                    </div>
+                    <div class="d-flex align-items-center text-muted small">
+                        <i class="fas fa-truck text-dark me-2"></i> Livraison 24h-48h
                     </div>
                 </div>
-                {{ end }}
             </div>
         </div>
     </div>
@@ -104,29 +72,7 @@
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script async src="https://cdn.snipcart.com/themes/v3.7.2/default/snipcart.js"></script>
-    <div hidden id="snipcart" 
-         data-api-key="OWUxZTM0MzItNjA5MC00YmYxLWE1YmItZmRiMmFmZTRmMzY1NjM3NDc2Njk1Nzc4OTIwNDY0" 
-         data-config-modal-style="side" 
-         data-currency="mad">
-    </div>
-    
-    <script>
-        function filter(cat) {
-            document.querySelectorAll('.product-col').forEach(el => {
-                el.style.display = (cat === 'all' || el.dataset.cat === cat) ? 'block' : 'none';
-            });
-            document.querySelectorAll('.cat-link').forEach(l => l.classList.remove('active', 'text-danger'));
-            event.target.classList.add('active', 'text-danger');
-        }
-        
-        function search() {
-            let q = document.getElementById('search').value.toLowerCase();
-            document.querySelectorAll('.product-col').forEach(el => {
-                let title = el.querySelector('h6').innerText.toLowerCase();
-                el.style.display = title.includes(q) ? 'block' : 'none';
-            });
-        }
-    </script>
+    <div hidden id="snipcart" data-api-key="OWUxZTM0MzItNjA5MC00YmYxLWE1YmItZmRiMmFmZTRmMzY1NjM3NDc2Njk1Nzc4OTIwNDY0" data-config-modal-style="side"></div>
     
 </body>
 </html>

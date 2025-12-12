@@ -1,139 +1,147 @@
 
 <!doctype html>
 <html lang="fr">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>MECADO | Boutique en Ligne</title>
-        
-        <meta name="description" content="Découvrez les meilleurs produits importés au Maroc. Livraison rapide et paiement à la livraison.">
-        <meta property="og:title" content="MECADO">
-        <meta property="og:description" content="Épicerie fine, chocolats, snacks et boissons importées.">
-        <meta property="og:image" content="/images/og-cover.jpg">
-        
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        <link rel="stylesheet" href="/css/style.css">
-        <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.7.2/default/snipcart.css" />
-        
-        </head>
-    
+<head><title>MECADO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.7.2/default/snipcart.css" />
+    </head>
 <body>
+
     <div class="top-bar">
-        <div class="container d-flex justify-content-between align-items-center">
-            <span><i class="fas fa-truck text-success"></i> LIVRAISON GRATUITE DÈS 300 DH</span>
-            <span><i class="fas fa-phone-alt"></i> SERVICE CLIENT 7J/7</span>
+        <div class="container d-flex justify-content-between">
+            <span><i class="fas fa-truck"></i> LIVRAISON PARTOUT AU MAROC</span>
+            <span><i class="fab fa-whatsapp"></i> +212 600 000 000</span>
         </div>
     </div>
 
-    <nav class="navbar sticky-top">
+    <header class="site-header">
         <div class="container">
-            <a class="brand-logo" href="/">MECADO<span>.</span></a>
-            
-            <div class="d-none d-md-flex flex-grow-1 mx-5">
-                <input type="text" id="search" class="form-control rounded-0 border-end-0" placeholder="Rechercher (ex: Milka, Pringles...)" onkeyup="search()">
-                <button class="btn btn-dark rounded-0"><i class="fas fa-search"></i></button>
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <a href="/" class="logo">MECADO<span>.</span></a>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="search-input" placeholder="Rechercher...">
+                </div>
+                <div class="col-md-3 text-end">
+                    <button class="btn btn-link text-dark fw-bold text-decoration-none snipcart-checkout">
+                        <i class="fas fa-shopping-basket fa-lg"></i> PANIER <span class="badge bg-danger rounded-pill snipcart-items-count">0</span>
+                    </button>
+                </div>
             </div>
-            
-            <button class="btn btn-outline-dark fw-bold rounded-0 snipcart-checkout">
-                <i class="fas fa-shopping-bag"></i> <span class="snipcart-items-count">0</span>
-            </button>
         </div>
-    </nav>
+    </header>
 
-    <div class="border-bottom bg-white py-2 sticky-top" style="top: 80px; z-index: 900;">
-        <div class="container text-center">
-            <a class="cat-link mx-3 text-dark fw-bold text-decoration-none active text-danger" onclick="filter('all')">TOUT</a>
-            <a class="cat-link mx-3 text-dark fw-bold text-decoration-none" onclick="filter('Sucrées')">SUCRÉES</a>
-            <a class="cat-link mx-3 text-dark fw-bold text-decoration-none" onclick="filter('Salées')">SALÉES</a>
-            <a class="cat-link mx-3 text-dark fw-bold text-decoration-none" onclick="filter('Boissons')">BOISSONS</a>
-            <a class="cat-link mx-3 text-dark fw-bold text-decoration-none" onclick="filter('Courses')">COURSES</a>
+    <div class="main-nav d-none d-lg-block sticky-top bg-white">
+        <div class="container">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="/">ACCUEIL</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">SUCRÉES</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">SALÉES</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">BOISSONS</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">COURSES</a></li>
+                <li class="nav-item"><a class="nav-link text-danger" href="#">PROMOTIONS</a></li>
+            </ul>
         </div>
     </div>
 
-    {{ define "main" }}
-    
-    <div class="container mt-4 mb-5">
-        <div class="p-5 text-white d-flex align-items-center rounded-3" 
-             style="background: linear-gradient(135deg, #111, #d04f27); min-height: 300px;">
-            <div>
-                <span class="badge bg-warning text-dark mb-2">NOUVEAU</span>
-                <h1 class="display-4 fw-bold">ARRIVAGES EXCLUSIFS</h1>
-                <p class="lead">Le meilleur des marques importées au Maroc.</p>
-                <a href="#shop" class="btn btn-light rounded-0 fw-bold px-4">ACHETER MAINTENANT</a>
+    <div class="container mt-5">
+        <div class="row">
+            
+            <div class="col-lg-3 d-none d-lg-block">
+                <div class="mb-5">
+                    <h5 class="sidebar-title">CATÉGORIES</h5>
+                    <ul class="list-unstyled cat-list">
+                        <li><a href="#">Chocolats & Bonbons</a></li>
+                        <li><a href="#">Biscuits & Gâteaux</a></li>
+                        <li><a href="#">Chips & Snacks</a></li>
+                        <li><a href="#">Boissons & Jus</a></li>
+                        <li><a href="#">Épicerie Fine</a></li>
+                        <li><a href="#">Petit Déjeuner</a></li>
+                    </ul>
+                </div>
+                <div class="mb-5">
+                    <h5 class="sidebar-title">FILTRER PAR PRIX</h5>
+                    <input type="range" class="form-range" min="0" max="500">
+                </div>
+                <div>
+                    <img src="https://placehold.co/300x400/d04f27/fff?text=PROMO" class="img-fluid rounded">
+                </div>
             </div>
-        </div>
-    </div>
 
-    <div class="container mb-5" id="shop">
-        <h3 class="mb-4 fw-bold">NOS PRODUITS</h3>
-        <div class="row g-3">
-            {{ range .Site.RegularPages }}
-            <div class="col-6 col-md-3 product-col" data-cat="{{ index .Params.categories 0 }}">
-                <div class="product-card">
-                    <span class="badge-promo">-20%</span>
-                    <a href="{{ .Permalink }}" class="img-wrap">
-                        <img src="{{ .Params.image }}" loading="lazy" alt="{{ .Title }}">
-                    </a>
-                    <div class="p-3 text-center">
-                        <small class="text-muted text-uppercase" style="font-size:10px">{{ index .Params.categories 0 }}</small>
-                        <h6 class="my-2 fw-bold text-dark text-truncate">{{ .Title }}</h6>
-                        <div class="mb-2">
-                            <span class="text-decoration-line-through text-muted small">{{ .Params.old_price }} DH</span>
-                            <span class="text-danger fw-bold fs-5">{{ .Params.price }} DH</span>
+            <div class="col-lg-9">
+                <div class="mb-4 rounded p-4 text-white d-flex align-items-center" style="background: linear-gradient(45deg, #222, #d04f27); height: 200px;">
+                    <div>
+                        <h2 class="fw-bold">NOS PRODUITS</h2>
+                        <p class="mb-0">Découvrez notre sélection exclusive.</p>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center mb-4 pb-2 border-bottom">
+                    <span class="text-muted small">Affichage de tous les produits</span>
+                    <select class="form-select form-select-sm" style="width: auto;">
+                        <option>Tri par défaut</option>
+                        <option>Prix croissant</option>
+                        <option>Prix décroissant</option>
+                    </select>
+                </div>
+
+                <div class="row g-4">
+                    {{ range .Site.RegularPages }}
+                    <div class="col-6 col-md-4">
+                        <div class="product-card h-100">
+                            <a href="{{ .Permalink }}" class="d-block">
+                                <img src="{{ .Params.image }}" class="card-img" alt="{{ .Title }}" loading="lazy">
+                            </a>
+                            <div class="card-info">
+                                <span class="cat-name">{{ index .Params.categories 0 }}</span>
+                                <h6 class="prod-title"><a href="{{ .Permalink }}" class="text-reset">{{ .Title }}</a></h6>
+                                <span class="price">{{ .Params.price }} DH</span>
+                                <button class="btn-add snipcart-add-item"
+                                    data-item-id="{{ .Params.sku }}"
+                                    data-item-price="{{ .Params.price }}"
+                                    data-item-url="{{ .Permalink }}"
+                                    data-item-name="{{ .Title }}"
+                                    data-item-image="{{ .Params.image }}"
+                                    data-item-custom1-name="Téléphone"
+                                    data-item-custom1-required="true">
+                                    AJOUTER AU PANIER
+                                </button>
+                            </div>
                         </div>
-                        
-                        <button class="btn-add snipcart-add-item"
-                            data-item-id="{{ .Params.sku }}"
-                            data-item-price="{{ .Params.price }}"
-                            data-item-url="{{ .Permalink }}"
-                            data-item-name="{{ .Title }}"
-                            data-item-image="{{ .Params.image }}"
-                            data-item-custom1-name="Téléphone"
-                            data-item-custom1-required="true">
-                            AJOUTER
-                        </button>
                     </div>
+                    {{ end }}
                 </div>
             </div>
-            {{ end }}
         </div>
     </div>
-    {{ end }}
 
-    <footer class="bg-dark text-light">
+    <footer>
         <div class="container">
-            <div class="row g-4">
-                <div class="col-lg-4">
-                    <h5 class="text-white">MECADO</h5>
-                    <p class="text-muted">Votre référence pour les produits d'épicerie fine importés. Qualité garantie.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>MECADO.</h5>
+                    <p class="text-muted small">Votre boutique préférée pour les produits importés. Qualité garantie.</p>
                 </div>
-                <div class="col-lg-2">
-                    <h5 class="text-white">LIENS</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">Boutique</a></li>
+                <div class="col-md-4">
+                    <h5>LIENS</h5>
+                    <ul class="list-unstyled small">
                         <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3">
-                    <h5 class="text-white">LÉGAL</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">CGV</a></li>
-                        <li><a href="#">Politique de Retour</a></li>
                         <li><a href="#">Livraison</a></li>
+                        <li><a href="#">Mentions Légales</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3">
-                    <h5 class="text-white">PAIEMENT</h5>
-                    <div class="fs-2 text-muted">
-                        <i class="fab fa-cc-visa"></i> <i class="fab fa-cc-mastercard"></i> <i class="fas fa-money-bill-wave"></i>
-                    </div>
+                <div class="col-md-4">
+                    <h5>CONTACT</h5>
+                    <p class="text-muted small">Casablanca, Maroc<br>contact@mecado.ma</p>
                 </div>
             </div>
-            <div class="border-top border-secondary mt-5 pt-4 text-center text-muted small">
-                &copy; 2025 MECADO. Tous droits réservés.
+            <div class="text-center mt-4 pt-4 border-top border-secondary text-muted small">
+                © 2025 MECADO - Tous droits réservés.
             </div>
         </div>
     </footer>
@@ -141,29 +149,7 @@
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script async src="https://cdn.snipcart.com/themes/v3.7.2/default/snipcart.js"></script>
-    <div hidden id="snipcart" 
-         data-api-key="OWUxZTM0MzItNjA5MC00YmYxLWE1YmItZmRiMmFmZTRmMzY1NjM3NDc2Njk1Nzc4OTIwNDY0" 
-         data-config-modal-style="side" 
-         data-currency="mad">
-    </div>
-    
-    <script>
-        function filter(cat) {
-            document.querySelectorAll('.product-col').forEach(el => {
-                el.style.display = (cat === 'all' || el.dataset.cat === cat) ? 'block' : 'none';
-            });
-            document.querySelectorAll('.cat-link').forEach(l => l.classList.remove('active', 'text-danger'));
-            event.target.classList.add('active', 'text-danger');
-        }
-        
-        function search() {
-            let q = document.getElementById('search').value.toLowerCase();
-            document.querySelectorAll('.product-col').forEach(el => {
-                let title = el.querySelector('h6').innerText.toLowerCase();
-                el.style.display = title.includes(q) ? 'block' : 'none';
-            });
-        }
-    </script>
+    <div hidden id="snipcart" data-api-key="OWUxZTM0MzItNjA5MC00YmYxLWE1YmItZmRiMmFmZTRmMzY1NjM3NDc2Njk1Nzc4OTIwNDY0" data-config-modal-style="side"></div>
     
 </body>
 </html>
