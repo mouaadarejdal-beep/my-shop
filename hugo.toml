@@ -1,6 +1,8 @@
 
-baseURL = '/'
+baseURL = 'https://693c5fdf901959000848dbed--finalff12.netlify.app/'
 languageCode = 'fr-fr'
 title = 'MECADO'
 theme = []
-relativeURLs = true
+# Absolute URLs are required for Snipcart validation
+relativeURLs = false
+canonifyURLs = true

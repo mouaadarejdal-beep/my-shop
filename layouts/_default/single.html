@@ -1,51 +1,49 @@
 
 <!doctype html>
 <html lang="fr">
-<head><title>{{ .Title }}</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.7.2/default/snipcart.css" />
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MECADO | Boutique</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.7.2/default/snipcart.css" />
+        <link rel="stylesheet" href="/css/style.css">
+        <style>
+            /* Custom Search Highlight */
+            .search-highlight { border: 2px solid #d04f27; }
+            /* Category Section Headers */
+            .cat-header { border-left: 5px solid #d04f27; padding-left: 15px; margin: 40px 0 20px 0; font-weight: 800; text-transform: uppercase; }
+        </style>
     </head>
-<body>
     
-    <div class="top-bar"><div class="container text-center">Livraison Gratuite dès 300 DH</div></div>
-    <nav class="bg-white border-bottom py-3 sticky-top">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a href="/" class="fw-bold text-dark"><i class="fas fa-chevron-left text-danger"></i> RETOUR BOUTIQUE</a>
-            <button class="btn btn-outline-dark snipcart-checkout">
-                <i class="fas fa-shopping-basket"></i> <span class="snipcart-items-count">0</span>
+<body style="background:#fff;">
+
+    <nav class="navbar border-bottom sticky-top bg-white">
+        <div class="container">
+            <a href="/" class="fw-bold text-dark text-decoration-none"><i class="fas fa-arrow-left me-2"></i> RETOUR</a>
+            <button class="btn btn-dark rounded-0 snipcart-checkout">
+                <i class="fas fa-shopping-basket"></i> <span class="badge bg-danger rounded-pill ms-1 snipcart-items-count">0</span>
             </button>
         </div>
     </nav>
 
     <div class="container py-5">
         <div class="row gx-5">
-            <div class="col-md-6 mb-4">
-                <div class="border p-5 bg-white text-center">
-                    <img src="{{ .Params.image }}" class="img-fluid" style="max-height: 500px;">
-                </div>
+            <div class="col-md-6 mb-4 text-center">
+                <img src="{{ .Params.image }}" class="img-fluid border rounded p-4" style="max-height: 500px;">
             </div>
 
             <div class="col-md-6">
-                <span class="text-muted text-uppercase fw-bold small">{{ index .Params.categories 0 }}</span>
-                <h1 class="fw-bold mt-2 mb-3" style="font-family:'Exo'; font-size: 2.5rem;">{{ .Title }}</h1>
-                
+                <span class="badge bg-dark mb-2">{{ index .Params.categories 0 }}</span>
+                <h1 class="fw-bold mb-3">{{ .Title }}</h1>
                 <div class="h2 text-danger fw-bold mb-4">{{ .Params.price }} MAD</div>
                 
-                <p class="text-secondary lead mb-4" style="font-size:16px;">
-                    {{ .Content }}
-                    <br><br>
-                    Produit en stock. Commandez maintenant pour une expédition rapide.
-                </p>
+                <p class="lead text-muted mb-4">{{ .Content }}</p>
 
-                <hr class="my-4">
-
-                <div class="d-flex gap-3">
-                    <input type="number" class="form-control text-center fw-bold" value="1" min="1" style="width: 70px;">
-                    <button class="btn btn-danger w-100 py-3 fw-bold text-uppercase snipcart-add-item"
+                <div class="d-grid gap-2 mb-4">
+                    <button class="btn btn-danger btn-lg rounded-0 fw-bold snipcart-add-item"
                         data-item-id="{{ .Params.sku }}"
                         data-item-price="{{ .Params.price }}"
                         data-item-url="{{ .Permalink }}"
@@ -55,24 +53,52 @@
                         data-item-custom1-required="true">
                         AJOUTER AU PANIER
                     </button>
-                </div>
-
-                <div class="mt-4 pt-3 border-top">
-                    <div class="d-flex align-items-center mb-2 text-muted small">
-                        <i class="fas fa-check-circle text-success me-2"></i> Stock disponible
-                    </div>
-                    <div class="d-flex align-items-center text-muted small">
-                        <i class="fas fa-truck text-dark me-2"></i> Livraison 24h-48h
-                    </div>
+                    <a href="https://wa.me/212720498110?text=Je souhaite commander : {{ .Title }}" class="btn btn-success btn-lg rounded-0 fw-bold">
+                        <i class="fab fa-whatsapp"></i> COMMANDER PAR WHATSAPP
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>CONTACT</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fab fa-whatsapp me-2"></i> 07 20 49 81 10</li>
+                        <li><i class="fas fa-envelope me-2"></i> mouaadarejdal@gmail.com</li>
+                        <li><a href="https://www.facebook.com/share/1Bq4qfh8Uj/" class="text-white text-decoration-none"><i class="fab fa-facebook me-2"></i> Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center mt-4 border-top border-secondary pt-3 small">© 2025 MECADO</div>
+        </div>
+    </footer>
+
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script async src="https://cdn.snipcart.com/themes/v3.7.2/default/snipcart.js"></script>
     <div hidden id="snipcart" data-api-key="OWUxZTM0MzItNjA5MC00YmYxLWE1YmItZmRiMmFmZTRmMzY1NjM3NDc2Njk1Nzc4OTIwNDY0" data-config-modal-style="side"></div>
+    
+    <script>
+        function liveSearch() {
+            let input = document.getElementById("searchBox").value.toLowerCase();
+            let products = document.querySelectorAll(".product-col");
+            
+            products.forEach(product => {
+                let title = product.getAttribute("data-title");
+                let cat = product.getAttribute("data-cat");
+                
+                if (title.includes(input) || cat.includes(input)) {
+                    product.style.display = "block";
+                } else {
+                    product.style.display = "none";
+                }
+            });
+        }
+    </script>
     
 </body>
 </html>
