@@ -2,10 +2,12 @@
 title: "Royal Cuajada 48G"
 date: 2022-01-01
 draft: false
-price: "248.00"
+price: "53.00"
+old_price: "63.00"
 categories: ["Nouveautés"]
 image: "/images/products/Royal_Cuajada_48g.png"
-sku: "MEC-39331"
+sku: "MEC-1010"
 ---
-Découvrez **Royal Cuajada 48G**, un produit de qualité sélectionné pour vous.
-Disponible immédiatement en stock.
+Profitez de **Royal Cuajada 48G** au meilleur prix.
+Produit importé authentique, stocké dans nos entrepôts.
+Livraison rapide garantie.

@@ -2,10 +2,12 @@
 title: "Summer Box Dcouverte"
 date: 2022-01-01
 draft: false
-price: "225.00"
+price: "75.00"
+old_price: "90.00"
 categories: ["Nouveautés"]
 image: "/images/products/Summer_Box_Dcouverte.png"
-sku: "MEC-49306"
+sku: "MEC-1012"
 ---
-Découvrez **Summer Box Dcouverte**, un produit de qualité sélectionné pour vous.
-Disponible immédiatement en stock.
+Profitez de **Summer Box Dcouverte** au meilleur prix.
+Produit importé authentique, stocké dans nos entrepôts.
+Livraison rapide garantie.

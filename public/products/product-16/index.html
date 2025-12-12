@@ -1,55 +1,82 @@
 
 <!doctype html>
 <html lang="fr">
-<head>
-    <title>Twix Boisson Lait Chocolate Au Caramel 350Ml</title>
-    
+<head><title>Twix Boisson Lait Chocolate Au Caramel 350Ml</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.7.2/default/snipcart.css" />
-    
-</head>
-<body style="background:#fff;">
-
-    <div class="top-bar">
-        <div class="container text-center">Livraison Gratuite dès 300 DH !</div>
-    </div>
-    <nav class="site-header py-3 sticky-top bg-white border-bottom">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a href="../../" class="text-decoration-none fw-bold text-dark"><i class="fas fa-arrow-left"></i> RETOUR</a>
-            <a href="../../" class="logo" style="font-size:20px;">MECADO<span>.</span></a>
-            <button class="btn btn-light border snipcart-checkout">
-                <i class="fas fa-shopping-basket"></i> <span class="snipcart-items-count">0</span>
+    <style>
+        :root { --primary: #d04f27; --dark: #222; }
+        body { font-family: 'Segoe UI', sans-serif; background: #fff; }
+        a { text-decoration: none; }
+        
+         
+        .top-bar { background: var(--dark); color: white; font-size: 12px; padding: 5px 0; font-weight: bold; }
+        .navbar-brand { font-weight: 900; font-size: 28px; color: #000; letter-spacing: -1px; }
+        .navbar-brand span { color: var(--primary); }
+        
+         
+        .nav-pills .nav-link { color: #555; font-weight: 700; text-transform: uppercase; font-size: 13px; padding: 10px 20px; border-radius: 30px; margin: 0 5px; }
+        .nav-pills .nav-link.active, .nav-pills .nav-link:hover { background-color: var(--primary); color: white; }
+        
+         
+        .product-card { border: 1px solid #eee; transition: 0.3s; height: 100%; position: relative; background: white; }
+        .product-card:hover { box-shadow: 0 10px 25px rgba(0,0,0,0.1); border-color: var(--primary); }
+        .badge-save { position: absolute; top: 10px; left: 10px; background: var(--primary); color: white; font-size: 11px; font-weight: bold; padding: 4px 8px; border-radius: 4px; }
+        
+        .img-wrap { position: relative; padding-top: 100%; overflow: hidden; }
+        .img-wrap img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; padding: 20px; transition: transform 0.5s; }
+        .product-card:hover img { transform: scale(1.1); }
+        
+        .card-body { padding: 15px; text-align: center; }
+        .price-new { color: var(--primary); font-weight: 800; font-size: 18px; }
+        .price-old { text-decoration: line-through; color: #999; font-size: 14px; margin-right: 5px; }
+        
+        .btn-add { width: 100%; background: white; border: 2px solid var(--dark); color: var(--dark); font-weight: 700; font-size: 12px; padding: 10px; transition: 0.3s; text-transform: uppercase; }
+        .btn-add:hover { background: var(--primary); border-color: var(--primary); color: white; }
+        
+         
+        footer { background: #111; color: #777; padding: 50px 0; margin-top: 50px; font-size: 13px; }
+        footer h5 { color: white; font-weight: 700; margin-bottom: 20px; }
+        footer ul li { margin-bottom: 8px; }
+    </style>
+    </head>
+<body>
+    <nav class="navbar bg-white border-bottom sticky-top">
+        <div class="container">
+            <a href="../../" class="fw-bold text-dark"><i class="fas fa-arrow-left"></i> RETOUR</a>
+            <button class="btn btn-dark rounded-pill fw-bold snipcart-checkout">
+                Panier <span class="snipcart-items-count">0</span>
             </button>
         </div>
     </nav>
 
     <div class="container py-5">
-        <div class="row gx-5">
-            <div class="col-md-6 mb-4">
-                <div class="border p-5 text-center">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-4 text-center">
+                <div class="border rounded p-5 bg-white">
                     <img src="../../images/products/Twix_Boisson_Lait_Chocolate_au_Caramel_350ml.png" class="img-fluid" style="max-height: 500px;">
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="text-uppercase text-muted fw-bold small mb-2">Boissons</div>
-                <h1 class="fw-bold mb-3" style="font-family:'Exo';">Twix Boisson Lait Chocolate Au Caramel 350Ml</h1>
-                <div class="h2 text-danger fw-bold mb-4">94.00 MAD</div>
+                <span class="badge bg-dark mb-2">Boissons</span>
+                <h1 class="display-5 fw-bold mb-3">Twix Boisson Lait Chocolate Au Caramel 350Ml</h1>
+                <div class="mb-3 text-warning"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                 
-                <p class="lead text-muted mb-4" style="font-size:15px;">
-                    <p>Découvrez <strong>Twix Boisson Lait Chocolate Au Caramel 350Ml</strong>, un produit de qualité sélectionné pour vous.
-Disponible immédiatement en stock.</p>
+                <div class="d-flex align-items-center mb-4">
+                    <span class="text-decoration-line-through text-muted fs-4 me-3">115.00 MAD</span>
+                    <span class="display-6 fw-bold" style="color: #d04f27;">96.00 MAD</span>
+                </div>
 
-                    <br><br>
-                    Produit en stock. Expédié sous 24h via Amana ou nos livreurs.
-                </p>
-
-                <div class="d-flex gap-2 mb-4">
-                    <input type="number" value="1" min="1" class="form-control text-center" style="width: 60px;">
-                    <button class="btn btn-danger w-100 fw-bold rounded-0 snipcart-add-item"
-                        data-item-id="MEC-79228"
-                        data-item-price="94.00"
+                <p class="lead text-muted mb-4"><p>Profitez de <strong>Twix Boisson Lait Chocolate Au Caramel 350Ml</strong> au meilleur prix.
+Produit importé authentique, stocké dans nos entrepôts.
+Livraison rapide garantie.</p>
+</p>
+                
+                <div class="d-grid gap-2">
+                    <button class="btn btn-lg fw-bold text-white snipcart-add-item" style="background: #d04f27; padding: 15px;"
+                        data-item-id="MEC-1016"
+                        data-item-price="96.00"
                         data-item-url="../../products/product-16/"
                         data-item-name="Twix Boisson Lait Chocolate Au Caramel 350Ml"
                         data-item-image="/images/products/Twix_Boisson_Lait_Chocolate_au_Caramel_350ml.png"
@@ -57,15 +84,15 @@ Disponible immédiatement en stock.</p>
                         AJOUTER AU PANIER
                     </button>
                 </div>
-
-                <div class="bg-light p-3 border rounded small">
-                    <div class="d-flex align-items-center mb-2"><i class="fas fa-check text-success me-2"></i> Produit Authentique</div>
-                    <div class="d-flex align-items-center"><i class="fas fa-truck text-primary me-2"></i> Livraison Rapide</div>
+                
+                <div class="row mt-4 text-center small text-muted">
+                    <div class="col"><i class="fas fa-truck fa-2x mb-1"></i><br>24/48H</div>
+                    <div class="col"><i class="fas fa-shield-alt fa-2x mb-1"></i><br>Garantie</div>
+                    <div class="col"><i class="fas fa-phone fa-2x mb-1"></i><br>Support</div>
                 </div>
             </div>
         </div>
     </div>
-
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script async src="https://cdn.snipcart.com/themes/v3.7.2/default/snipcart.js"></script>

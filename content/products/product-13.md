@@ -2,10 +2,12 @@
 title: "Summer Box First Edition"
 date: 2022-01-01
 draft: false
-price: "157.00"
+price: "32.00"
+old_price: "38.00"
 categories: ["Nouveautés"]
 image: "/images/products/Summer_Box_First_Edition.png"
-sku: "MEC-96620"
+sku: "MEC-1013"
 ---
-Découvrez **Summer Box First Edition**, un produit de qualité sélectionné pour vous.
-Disponible immédiatement en stock.
+Profitez de **Summer Box First Edition** au meilleur prix.
+Produit importé authentique, stocké dans nos entrepôts.
+Livraison rapide garantie.

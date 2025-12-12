@@ -2,10 +2,12 @@
 title: "Twix Boisson Lait Chocolate Au Caramel 350Ml"
 date: 2022-01-01
 draft: false
-price: "94.00"
+price: "96.00"
+old_price: "115.00"
 categories: ["Boissons"]
 image: "/images/products/Twix_Boisson_Lait_Chocolate_au_Caramel_350ml.png"
-sku: "MEC-79228"
+sku: "MEC-1016"
 ---
-Découvrez **Twix Boisson Lait Chocolate Au Caramel 350Ml**, un produit de qualité sélectionné pour vous.
-Disponible immédiatement en stock.
+Profitez de **Twix Boisson Lait Chocolate Au Caramel 350Ml** au meilleur prix.
+Produit importé authentique, stocké dans nos entrepôts.
+Livraison rapide garantie.
